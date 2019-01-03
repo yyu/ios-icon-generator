@@ -151,7 +151,6 @@ fi
 
 # create dst directory 
 [ ! -d "$dst_path" ] && mkdir -p "$dst_path"
-
 # ios sizes refer to https://developer.apple.com/design/human-interface-guidelines/ios/icons-and-images/app-icon/
 # macos sizes refer to https://developer.apple.com/design/human-interface-guidelines/macos/icons-and-images/app-icon/
 # watchos sizes refer to https://developer.apple.com/design/human-interface-guidelines/watchos/icons-and-images/home-screen-icons/
@@ -187,6 +186,16 @@ Icon-98@2x      196
 Icon-108@2x     216
 Icon-44@2x      88
 Icon-50@2x      100
+Icon-48         48
+Icon-55         55
+Icon-80         80
+Icon-172        172
+Icon-196        196
+Icon-58         58
+Icon-87         87
+Icon-88         88
+Icon-100        100
+Icon-216        216
 EOF`
 
 OLD_IFS=$IFS
